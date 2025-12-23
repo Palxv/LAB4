@@ -1,0 +1,3 @@
+﻿  HIT.cpp
+F:\VS\PR #4\HIT2\HIT\HIT.cpp(6,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  HIT.vcxproj -> F:\VS\PR #4\HIT2\x64\Debug\HIT.exe
