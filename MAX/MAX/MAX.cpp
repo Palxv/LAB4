@@ -1,13 +1,13 @@
-﻿#include <iostream>
+#include <iostream>
 #include <Windows.h>
 using namespace std;
 int main() {
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
-    int x, max; bool first = true;
+    int i = 1, x, max; bool first = true;
     cout << "Введiть числа (0 — кiнець):" << endl;
     while (true) {
-        cin >> x;
+        cout << "a[" << i << "]= "; cin >> x;
         if (x == 0) break;
         if (first) {
             max = x;
