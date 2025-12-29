@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <Windows.h>
 using namespace std;
 int main() {
@@ -6,8 +6,8 @@ int main() {
     srand(time(0));
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
-    x0 = rand() % 1000;
-    y0 = rand() % 1000;
+    x0 = rand() % 2000 - 1000;
+    y0 = rand() % 2000 - 1000;
     R = rand() % 50 + 1;
 	cout << "точці (" << x0 << ", " << y0 << ") та радіус " << R << "." << endl;
     while (true) {
